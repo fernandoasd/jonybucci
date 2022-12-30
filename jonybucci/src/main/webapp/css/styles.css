@@ -1,0 +1,88 @@
+
+.navbar-nav ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    position: sticky;
+}
+
+.navbar li:hover > ul{
+    display: block;
+}
+
+.submenu1 li {
+    position: relative;
+}
+
+.navbar li ul li ul {
+    left: 140px;
+    top: 0px;
+}
+
+.navbar li a:hover {
+    background: rgba(184, 179, 179, 0.8);
+    cursor: pointer;
+    display: block;
+}
+
+@media (max-width:992px) {
+    .submenu1>li{
+        left: 101px;
+        top: -40px;
+    }
+}
+
+.display-none {
+    display: none;
+}
+
+.card-title, .card-text {
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gallery-btn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+div.col:hover{
+    cursor: pointer;
+}
+
+div.col:hover > div img{
+    color: rgba(19, 17, 17, 0.418);
+    transition: color 0.2s;
+    background-color: #1b1e2242;
+    opacity: 0.2;
+    box-shadow: rgb(26, 24, 24) 5px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+div.col:hover > div h5{
+    display: flex;
+    color: rgba(253, 249, 249, 0.932);
+
+}
+
+div.col:hover > div p{
+    display: flex;
+    color: rgba(253, 249, 249, 0.932);
+}
+
+div.col:hover > div .gallery-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(253, 249, 249, 0.932);
+}
+
+#navbar-foot {
+    background-color: hsla(0, 0%, 3%, 0.774);
+   }.text-success {
+
+}
